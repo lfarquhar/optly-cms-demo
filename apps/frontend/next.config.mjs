@@ -17,7 +17,7 @@ const nextConfig = {
                 protocol: 'https',
                 hostname: 'app-ocxclafa347shprod.cms.optimizely.com',
                 port: '',
-                pathname: '/cdn-cgi/**',
+                pathname: '/cdn-cgi/image/**',
             }
         ]
     }
