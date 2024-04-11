@@ -12,7 +12,14 @@ const nextConfig = {
     images: {
         loader: 'custom',
         loaderFile: './src/cloudflareLoader.js', // Use Cloudflare Images for resizing
-        remotePatterns: []
+        remotePatterns: [
+            {
+                protocol: 'https',
+                hostname: 'app-ocxclafa347shprod.cms.optimizely.com',
+                port: '',
+                pathname: '/cdn-cgi/**',
+            }
+        ]
     }
 }
 
