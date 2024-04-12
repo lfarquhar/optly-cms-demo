@@ -15,7 +15,7 @@ const nextConfig = {
         remotePatterns: [
             {
                 protocol: 'https',
-                hostname: 'optly-cms-demo-git-main-lfarquhars-projects.vercel.app',
+                hostname: 'app-ocxclafa347shprod.cms.optimizely.com',
                 port: '',
                 pathname: '/**',
             }
